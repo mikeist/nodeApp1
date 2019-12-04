@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body id="body">
+		<div id="para">
+			<h4>Signup Bellow</h4>
+		</div>
+	<div id="cont">
+		<form action="/reg" method="GET">
+			<input type="text" name="fname" placeholder="First Name" size="50">
+			<br>
+			<input type="text" name="lname" placeholder="Last Name" size="50"> 
+			<br>
+			<input type="email" name="email" placeholder="Email" size="50">
+			<br>
+			<br>
+					Gender:
+					<input type="radio" name="gender" value = "male" id="male">Male   
+	                <input type="radio" name="gender" value = "female" id="female">Female
+			<br>
+			<br>
+						<select type = "select" name="County" id="County">
+	                        <option value="County">Kisumu</option>
+	                        <option value="County">Mombasa</option>
+	                        <option value="County">Kitui</option>
+	                        <option value="County">Garissa</option>
+	                        <option value="County" selected="COUNTY">COUNTY</option>
+	                    </select>
+	                    <select type = "select" name="Course" id="Course">
+	                        <option value="Course">HTML</option>
+	                        <option value="Course">CSS</option>
+	                        <option value="Course">JAVASCRIPT</option>
+	                        <option value="Course">PYTHON</option>
+	                        <option value="Course" selected="COURSE">COURSE</option>
+	                    </select>
+			<br>
+			<br>
+			<input type="text" name="username" placeholder="User Name" size="50">
+			<br>
+			<input type="password" name="psd" placeholder="password" size="50">
+			<br>
+			<br>
+			<button type="submit" name="submit">REGISTER</button>
+		</form>
+	</div>
+	<script src="./index.js"></script>
+
+</body>
+</html>
